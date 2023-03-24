@@ -1,0 +1,110 @@
+1.What will be the output if you execute the following code in C?
+ #include<stdio.h>
+int main(){
+    int arr[]={6,12,18,24};
+    int x=0;
+    x=arr[1]+(arr[1]=2);
+    printf("%d",x);
+    return 0;
+}
+
+2. What will be the output if you execute the following code in C?
+#include<stdio.h>
+#include<conio.h>
+voidmain(){
+    inti=3,val;
+    val=sizeof f(i)+ +f(i=1)+ +f(i-1);
+    printf("%d %d",val,i);
+}
+intf(int num){
+    return num*5;
+}
+
+3. What will be the output of following c program?
+
+#include<stdio.h>
+#include<conio.h>
+float avg(float,float,float);
+voidmain(){
+    float p=1,q=2,r=-2,a;
+    a=avg(p,(q=4,r=-12,q),r);
+    printf("%f",a);  
+}
+floatavg(floatx,floaty,float z){
+    return (x+y+z)/3;
+}
+
+4. Predict the output or error(s) for the following program:
+
+void main()
+{
+int const * p=5;
+printf("%d",++(*p));
+}
+
+5. Predict the output or error(s) for the following program:
+main()
+{
+int c[ ]={2.8,3.4,4,6.7,5};
+int j,*p=c,*q=c;
+for(j=0;j<5;j++) {
+printf(" %d ",*c);
+++q; }
+for(j=0;j<5;j++){
+printf(" %d ",*p);
+++p; }
+}
+6. Predict the output or error(s) for the following program:
+main()
+{
+char string[]="Hello World";
+display(string);
+}
+void display(char *string)
+{
+printf("%s",string);
+}
+
+7. Print the following hill pattern ,
+Each line contains n characters = space+number
+When n=5
+         1        
+      12
+    123
+  1234
+12345
+
+8.Find the index  of first occurrence of X in the array of N elements, if the element not present then print -1
+
+9. What will be output of following c program?
+
+#include"string.h"
+typedefstruct stu1{
+    char name1[6];
+    char name2[6];
+    double marks;
+}STU1;
+voidmain(){
+    STU1 s1={"rohit","kumar",87.43},*p1;
+    char *p;
+    p1=&s1;
+    p=memchr(p1,'u',sizeof(STU1));
+    printf("%s",p);  
+}
+
+10. Predict the output or error(s) for the following program:
+#define square(x) x*x
+main()
+{
+int i;
+i = 64/square(4);
+printf("%d",i);
+}
+
+
+
+
+
+
+
+
